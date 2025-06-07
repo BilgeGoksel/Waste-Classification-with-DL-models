@@ -17,11 +17,11 @@ Kullanılan veri seti: [Recyclable and Household Waste Classification](https://w
 Projede çeşitli derin öğrenme yaklaşımları değerlendirilmiştir:
 
 - Temel CNN modeli (sıfırdan geliştirilmiş mimari)
-- Veri artırımı (rotation, shift, zoom vb.)
 - Transfer Learning:
   - MobileNetV2
   - ResNet50
   - EfficientNetB0
+- AutoEncoder 
 
 Her model hem stüdyo (default) hem de gerçek dünya (real_world) verileri üzerinde test edilmiştir.
 
